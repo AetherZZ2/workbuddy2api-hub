@@ -57,3 +57,9 @@ desktop.ini
 
 # Local Docker Compose override
 docker-compose.override.yml
+
+# 本地运行产物与个人密钥（不属于仓库，误 add 会把密钥和 84MB 的 node_modules 带上去）
+.dsh-api-key.txt
+.panel-password.txt
+wb-proxy.log
+qoder/
